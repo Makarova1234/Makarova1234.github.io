@@ -43,7 +43,7 @@
                     <option>Legacy Trails</option>
                     <option>BUMLANE</option>
                 </select><br>
-                <button type="submit" style="background-color: blue;"class="A" disabled="disabled" id="Register"  >Submit</button>
+                <button type="submit" style="background-color: blue;"class="A" disabled="disabled" id="Register" onclick="billyeilish();" >Submit</button>
 
 <footer><address><a href="">TERMS AND CONDITIONS</a><br><a href="">PRIVACY POLICY</a></address></footer>
 
@@ -65,8 +65,10 @@
     ).then((html) => {
       // you can put any JS code here
       alert('success')
-      if (document.getElementById('retarded').value = 'BUMLANE','Legacy Trails') {
-      window.location.href='https://makarova1234.github.io/Checkout.html';} else {window.location.href='https://makarova1234.github.io';}
+      var billyeilish = function() {
+      var muffin = ["BUMLANE","Legacy Trails"];
+      if (document.getElementById('retarded').value = muffin[0,1]) {
+      window.location.href='https://makarova1234.github.io/Checkout.html';} else {window.location.href='https://makarova1234.github.io';};}
     });
   });
         </script>
