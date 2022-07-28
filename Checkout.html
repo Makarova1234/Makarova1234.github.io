@@ -16,15 +16,25 @@
             div p {width: 100%; text-align: center;}
             div h2 {width: 100%; text-align: center;}
             div h3 {width: 100%; text-align: center;}
+            #bambee {}
         </style>
     </head>
     <body>
         <div>
             <h1>Congratulation!!!</h1>
-            <p>You may estimate the price for our service again with this button</p>
+            <p>You may estimate the price for our service again with this button <button onclick="estimation();" id="bambee">estimate</button></p>
             <h2>We will give you a text or call when we are on the way!</h2>
             <h3>payment is done after we fulfill the service and will either be done in person through venmo, paypal, cash, etc. or through email or message</h3>
         </div>
-        
+        <script type="text/javascript">
+        var estimation = function() {
+var n1=prompt("Please key in the number of hours we will be weedeating or trimming(not mowing...).","e.g.123"); 
+var n2=prompt("Please key in how many half acres you have if your land is smaller than an acre put 0.","e.g.123");
+var charliebam=n1*25;
+var n3=n2-1;
+var crowbam=n3*30;
+var result=charliebam+crowbam+50;
+alert("The estimated price for a lawn service for your lawn is "+ result + "$");
+        }</script>
     </body>
 </html>
